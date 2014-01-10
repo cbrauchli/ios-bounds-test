@@ -17,13 +17,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.scrollView.contentSize = CGSizeMake(1000.f, 1000.f);
 }
 
-- (void)didReceiveMemoryWarning
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    NSLog(@"Bounds: %@", NSStringFromCGRect(scrollView.bounds));
 }
 
 @end

@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CABViewController : UIViewController
+@interface CABViewController : UIViewController <UIScrollViewDelegate>
+
+@property (nonatomic, strong) IBOutlet UIScrollView *scrollView;
 
 @end

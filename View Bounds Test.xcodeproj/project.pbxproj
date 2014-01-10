@@ -13,8 +13,6 @@
 		B29668D5187F32A600EDE011 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B29668D3187F32A600EDE011 /* InfoPlist.strings */; };
 		B29668D7187F32A600EDE011 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B29668D6187F32A600EDE011 /* main.m */; };
 		B29668DB187F32A600EDE011 /* CABAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B29668DA187F32A600EDE011 /* CABAppDelegate.m */; };
-		B29668DE187F32A600EDE011 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B29668DC187F32A600EDE011 /* Main_iPhone.storyboard */; };
-		B29668E1187F32A600EDE011 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B29668DF187F32A600EDE011 /* Main_iPad.storyboard */; };
 		B29668E4187F32A600EDE011 /* CABViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B29668E3187F32A600EDE011 /* CABViewController.m */; };
 		B29668E6187F32A600EDE011 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B29668E5187F32A600EDE011 /* Images.xcassets */; };
 		B29668ED187F32A600EDE011 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29668EC187F32A600EDE011 /* XCTest.framework */; };
@@ -22,6 +20,8 @@
 		B29668EF187F32A600EDE011 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29668CE187F32A600EDE011 /* UIKit.framework */; };
 		B29668F7187F32A600EDE011 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B29668F5187F32A600EDE011 /* InfoPlist.strings */; };
 		B29668F9187F32A600EDE011 /* View_Bounds_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B29668F8187F32A600EDE011 /* View_Bounds_TestTests.m */; };
+		B2966903187F347700EDE011 /* NatGeo01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2966902187F347700EDE011 /* NatGeo01.jpg */; };
+		B2966906187F349200EDE011 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2966904187F349200EDE011 /* Main_iPhone.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,8 +45,6 @@
 		B29668D8187F32A600EDE011 /* View Bounds Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "View Bounds Test-Prefix.pch"; sourceTree = "<group>"; };
 		B29668D9187F32A600EDE011 /* CABAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CABAppDelegate.h; sourceTree = "<group>"; };
 		B29668DA187F32A600EDE011 /* CABAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CABAppDelegate.m; sourceTree = "<group>"; };
-		B29668DD187F32A600EDE011 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		B29668E0187F32A600EDE011 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		B29668E2187F32A600EDE011 /* CABViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CABViewController.h; sourceTree = "<group>"; };
 		B29668E3187F32A600EDE011 /* CABViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CABViewController.m; sourceTree = "<group>"; };
 		B29668E5187F32A600EDE011 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -55,6 +53,8 @@
 		B29668F4187F32A600EDE011 /* View Bounds TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "View Bounds TestTests-Info.plist"; sourceTree = "<group>"; };
 		B29668F6187F32A600EDE011 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B29668F8187F32A600EDE011 /* View_Bounds_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = View_Bounds_TestTests.m; sourceTree = "<group>"; };
+		B2966902187F347700EDE011 /* NatGeo01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NatGeo01.jpg; sourceTree = "<group>"; };
+		B2966905187F349200EDE011 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,11 +116,11 @@
 			children = (
 				B29668D9187F32A600EDE011 /* CABAppDelegate.h */,
 				B29668DA187F32A600EDE011 /* CABAppDelegate.m */,
-				B29668DC187F32A600EDE011 /* Main_iPhone.storyboard */,
-				B29668DF187F32A600EDE011 /* Main_iPad.storyboard */,
 				B29668E2187F32A600EDE011 /* CABViewController.h */,
 				B29668E3187F32A600EDE011 /* CABViewController.m */,
+				B2966904187F349200EDE011 /* Main_iPhone.storyboard */,
 				B29668E5187F32A600EDE011 /* Images.xcassets */,
+				B2966902187F347700EDE011 /* NatGeo01.jpg */,
 				B29668D1187F32A600EDE011 /* Supporting Files */,
 			);
 			path = "View Bounds Test";
@@ -232,9 +232,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B29668E1187F32A600EDE011 /* Main_iPad.storyboard in Resources */,
+				B2966906187F349200EDE011 /* Main_iPhone.storyboard in Resources */,
 				B29668E6187F32A600EDE011 /* Images.xcassets in Resources */,
-				B29668DE187F32A600EDE011 /* Main_iPhone.storyboard in Resources */,
+				B2966903187F347700EDE011 /* NatGeo01.jpg in Resources */,
 				B29668D5187F32A600EDE011 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,28 +287,20 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		B29668DC187F32A600EDE011 /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B29668DD187F32A600EDE011 /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		B29668DF187F32A600EDE011 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B29668E0187F32A600EDE011 /* Base */,
-			);
-			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
 		B29668F5187F32A600EDE011 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B29668F6187F32A600EDE011 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B2966904187F349200EDE011 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2966905187F349200EDE011 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -397,6 +389,7 @@
 				GCC_PREFIX_HEADER = "View Bounds Test/View Bounds Test-Prefix.pch";
 				INFOPLIST_FILE = "View Bounds Test/View Bounds Test-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -410,6 +403,7 @@
 				GCC_PREFIX_HEADER = "View Bounds Test/View Bounds Test-Prefix.pch";
 				INFOPLIST_FILE = "View Bounds Test/View Bounds Test-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
